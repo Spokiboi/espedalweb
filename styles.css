@@ -1,0 +1,67 @@
+.tab {
+    background-color: rgb(56, 70, 86);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    width: 110px;
+}
+
+.tab-b {
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(56, 70, 86);
+    color: white;
+    border-radius: 4px;
+    transition: 0.15s;
+    display: flex;
+    margin-left: 20px;
+}
+
+.tab a {
+    text-decoration: none;
+}
+
+.tab-b:hover {
+    background-color: rgb(137, 171, 210);
+    color: black;
+    cursor: pointer;
+}
+
+.page {
+    background-color: rgb(56, 70, 86);
+    background-color: rgb(56, 70, 86);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 50px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.headline {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+.example {
+    height: 500px;
+    border-radius: 6px;
+}
